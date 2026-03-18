@@ -4,7 +4,7 @@ export const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full bg-beige/80 backdrop-blur border-b border-charcoal/10 z-50">
+    <nav className="fixed top-0 w-full bg-sage/80 backdrop-blur border-b border-charcoal/10 z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
 
         {/* LOGO */}
