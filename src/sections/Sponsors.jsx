@@ -3,5 +3,5 @@ export const Sponsors = () => {
     <section>
       <h1>Sponsors</h1>
     </section>
-  )
-}
+  );
+};

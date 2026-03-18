@@ -3,5 +3,5 @@ export const Schedule = () => {
     <section>
       <h1>Schedule</h1>
     </section>
-  )
-}
+  );
+};

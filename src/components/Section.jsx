@@ -3,5 +3,5 @@ export const Section = ({ title }) => {
     <section>
       <h1>{title}</h1>
     </section>
-  )
-}
+  );
+};

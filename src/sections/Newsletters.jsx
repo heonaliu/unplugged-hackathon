@@ -3,5 +3,5 @@ export const Newsletters = () => {
     <section>
       <h1>Newsletters</h1>
     </section>
-  )
-}
+  );
+};

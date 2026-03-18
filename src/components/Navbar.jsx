@@ -3,5 +3,5 @@ export const Navbar = () => {
     <nav>
       <h1>Navbar</h1>
     </nav>
-  )
-}
+  );
+};

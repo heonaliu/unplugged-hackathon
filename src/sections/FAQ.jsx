@@ -3,5 +3,5 @@ export const Faq = () => {
     <section>
       <h1>FAQ</h1>
     </section>
-  )
-}
+  );
+};
