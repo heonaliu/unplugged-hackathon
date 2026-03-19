@@ -4,7 +4,7 @@ import { About } from "./sections/About";
 import { Schedule } from "./sections/Schedule";
 import { Sponsors } from "./sections/Sponsors";
 import { Newsletters } from "./sections/Newsletters";
-import { Faq } from "./sections/FAQ";
+import { Faq } from "./sections/Faq";
 import { Footer } from "./sections/Footer";
 
 function App() {
