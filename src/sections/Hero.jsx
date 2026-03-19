@@ -3,7 +3,7 @@ import plugVector from "../assets/plug-vector.png";
 
 export const Hero = () => {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-24">
+    <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20">
       <img
         src={plugVector}
         alt="Plug Vector"
@@ -41,9 +41,9 @@ export const Hero = () => {
         </button>
       </div>
 
-      <p className="mt-6 text-lg md:text-xl text-bluegray max-w-xl">
-        A chill hackathon for everyone, regardless of experience. Join us for a
-        weekend of excitement!
+      <p className="flex flex-col md:flex-row mt-6 text-lg md:text-xl text-bluegray max-w-xl">
+        <span className="py-2">A chill hackathon for everyone, regardless of experience.</span> 
+        <span className="py-2">Join us for a weekend of excitement!</span>
       </p>
     </section>
   );

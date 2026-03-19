@@ -15,6 +15,7 @@ export default {
           charcoal: "#2F2F2F",
       },
       fontFamily: {
+        gordita: ["Gordita", "sans-serif"],
         rubikOne: ["Rubik One", "sans-serif"],
       },
     },

@@ -12,7 +12,7 @@ function App() {
     
     <div className="relative min-h-screen bg-beige text-charcoal">
 
-      <div className="">
+      <div className="font-gordita">
         <Navbar />
         <Hero />
         <About />
