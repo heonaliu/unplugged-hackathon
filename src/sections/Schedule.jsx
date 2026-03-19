@@ -42,7 +42,8 @@ export const Schedule = () => {
 
   return (
     <section className="py-16 px-6 bg-beige text-center">
-      <h1 className="text-5xl font-bold mb-12">Schedule</h1>
+      <h1 className="text-purple font-rubikOne text-5xl font-bold mb-12">Schedule</h1>
+      <h2 className="text-charcoal text-2xl font-semibold mb-8"> Saturday May 23, 2026</h2>
 
       <div className="max-w-4xl mx-auto relative">
 
@@ -52,14 +53,14 @@ export const Schedule = () => {
         {scheduleItems.map((item, index) => (
           <div key={index} className="relative mb-6">
 
-            <div className="absolute left-0 top-1/2 -translate-y-1/2 w-8 h-8 bg-beige"></div>
+            <div className="absolute left-0 top-1/4 -translate-y-1/2 w-8 h-8 bg-beige"></div>
 
             {/* CARD */}
             <div
               onClick={() =>
                 setOpenIndex(openIndex === index ? null : index)
               }
-              className="ml-10 bg-purple text-white rounded-2xl px-6 py-5 flex justify-between items-center cursor-pointer hover:scale-[1.01] transition"
+              className="ml-10 bg-orange text-white rounded-2xl px-6 py-5 flex justify-between items-center cursor-pointer hover:scale-[1.01] transition"
             >
               <span>
                 {item.title} – {item.time}
