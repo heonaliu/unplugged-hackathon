@@ -10,6 +10,7 @@ export default {
           beige: "#F6F5F2",
           sage: "#A3B18A",
           orange: "#F08A5D",
+          purple: "#856de5",
           bluegray: "#8E9AAF",
           charcoal: "#2F2F2F",
       },
