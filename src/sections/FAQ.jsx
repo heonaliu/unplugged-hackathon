@@ -25,12 +25,12 @@ export const Faq = () => {
       {faqItems.map((item, index) => (
         <div
           key={index}
-          className="ml-10 bg-charcoal text-white rounded-2xl px-6 py-5 flex justify-between items-center cursor-pointer hover:scale-[1.01] transition"
+          className="ml-10 mb-4 bg-white text-white rounded-2xl px-6 py-5 flex justify-between items-center cursor-pointer transition"
         >
           <h2 className="text-charcoal text-2xl font-semibold mb-4">
             {item.question}
           </h2>
-          <p className="text-lg text-bluegray">{item.answer}</p>
+          <p className=" items-center ml-2 text-lg text-bluegray">{item.answer}</p>
         </div>
       ))}
     </section>
