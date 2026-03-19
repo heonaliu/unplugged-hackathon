@@ -41,7 +41,7 @@ export const Hero = () => {
         </button>
       </div>
 
-      <p className="flex flex-col md:flex-row mt-6 text-lg md:text-xl text-bluegray max-w-xl">
+      <p className="flex flex-col mt-6 text-lg md:text-xl text-bluegray max-w-xl">
         <span className="py-2">A chill hackathon for everyone, regardless of experience.</span> 
         <span className="py-2">Join us for a weekend of excitement!</span>
       </p>
