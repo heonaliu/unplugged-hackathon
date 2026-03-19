@@ -14,6 +14,9 @@ export default {
           bluegray: "#8E9AAF",
           charcoal: "#2F2F2F",
       },
+      fontFamily: {
+        rubikOne: ["Rubik One", "sans-serif"],
+      },
     },
     plugins: [],
   }

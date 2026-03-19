@@ -18,7 +18,7 @@ export const Hero = () => {
       z-0
     "
       />
-      <h1 className="text-6xl md:text-8xl font-extrabold">Unplugged</h1>
+      <h1 className="font-rubikOne text-purple text-6xl md:text-8xl font-extrabold">Unplugged</h1>
 
       <h2 className="text-4xl md:text-5xl mt-4 font-bold">2026</h2>
 
