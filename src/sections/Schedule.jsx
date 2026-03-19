@@ -37,18 +37,18 @@ export const Schedule = () => {
       time: "6:00 PM",
       description:
         "Winners announced and wrap-up",
-    },
+    }
   ];
 
   return (
     <section className="py-16 px-6 bg-beige text-center">
-      <h1 className="text-purple font-rubikOne text-5xl font-bold mb-12">Schedule</h1>
+      <h1 className="text-orange font-rubikOne text-5xl font-bold mb-12">Schedule</h1>
       <h2 className="text-charcoal text-2xl font-semibold mb-8"> Saturday May 23, 2026</h2>
 
       <div className="max-w-4xl mx-auto relative">
 
         {/* LEFT TIMELINE LINE */}
-        <div className="absolute left-4 top-0 bottom-0 w-2 bg-charcoal rounded"></div>
+        <div className="absolute left-4 top-0 bottom-0 w-2 bg-purple rounded"></div>
 
         {scheduleItems.map((item, index) => (
           <div key={index} className="relative mb-6">
@@ -60,7 +60,7 @@ export const Schedule = () => {
               onClick={() =>
                 setOpenIndex(openIndex === index ? null : index)
               }
-              className="ml-10 bg-orange text-white rounded-2xl px-6 py-5 flex justify-between items-center cursor-pointer hover:scale-[1.01] transition"
+              className="ml-10 bg-charcoal text-white rounded-2xl px-6 py-5 flex justify-between items-center cursor-pointer hover:scale-[1.01] transition"
             >
               <span>
                 {item.title} – {item.time}
