@@ -4,6 +4,14 @@ export const Sponsors = () => {
     {
       name: "Test Sponsor",
       logo: logoipsum,
+    },
+    {
+      name: "Test Sponsor",
+      logo: logoipsum,
+    },
+    {
+      name: "Test Sponsor",
+      logo: logoipsum,
     }
   ]
 
