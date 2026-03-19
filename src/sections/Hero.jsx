@@ -18,9 +18,13 @@ export const Hero = () => {
       z-0
     "
       />
-      <h1 className="font-rubikOne text-purple text-6xl md:text-8xl z-10">UNPLUGGED</h1>
+      <h1 className="font-rubikOne text-purple text-6xl md:text-8xl z-10">
+        UNPLUGGED
+      </h1>
 
-      <h2 className="font-rubikOne text-4xl md:text-5xl mt-4 font-bold">2026</h2>
+      <h2 className="font-rubikOne text-4xl md:text-5xl mt-4 font-bold">
+        2026
+      </h2>
 
       {/* INFO ROW */}
       <div className="flex flex-col md:flex-row items-center gap-6 mt-8 text-lg md:text-xl">
@@ -42,7 +46,9 @@ export const Hero = () => {
       </div>
 
       <p className="flex flex-col mt-6 text-lg md:text-xl text-bluegray max-w-xl">
-        <span className="py-2">A chill hackathon for everyone, regardless of experience.</span> 
+        <span className="py-2">
+          A chill hackathon for everyone, regardless of experience.
+        </span>
         <span className="py-2">Join us for a weekend of excitement!</span>
       </p>
     </section>
