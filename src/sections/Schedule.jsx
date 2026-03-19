@@ -2,6 +2,8 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 export const Schedule = () => {
+  const [openIndex, setOpenIndex] = useState(null);
+
   const scheduleItems = [
     {
       title: "Opening",
@@ -28,31 +30,56 @@ export const Schedule = () => {
       title: "Project Judging",
       time: "5:30 PM",
       description:
-        "Judges will review all projects and select winners based on creativity, technical complexity, and presentation",
+        "Judges will review all projects and select winners",
     },
     {
       title: "Closing Ceremony",
       time: "6:00 PM",
       description:
-        "Judges will review all projects and select winners based on creativity, technical complexity, and presentation",
+        "Winners announced and wrap-up",
     },
   ];
 
   return (
-    <section className="py-10 px-6 text-center">
+    <section className="py-16 px-6 bg-beige text-center">
       <h1 className="text-5xl font-bold mb-12">Schedule</h1>
+
       <div className="max-w-4xl mx-auto relative">
-        <div>
-          {scheduleItems.map((item, index) => (
-            <div key={index} className="mb-8 text-left">
-              <div className="flex items-center gap-4 mb-2">
-                <span className="text-2xl font-bold">{item.time}</span>
-                <h2 className="text-2xl font-bold">{item.title}</h2>
-              </div>
-              <p className="text-lg text-bluegray">{item.description}</p>
+
+        {/* LEFT TIMELINE LINE */}
+        <div className="absolute left-4 top-0 bottom-0 w-2 bg-charcoal rounded"></div>
+
+        {scheduleItems.map((item, index) => (
+          <div key={index} className="relative mb-6">
+
+            <div className="absolute left-0 top-1/2 -translate-y-1/2 w-8 h-8 bg-beige"></div>
+
+            {/* CARD */}
+            <div
+              onClick={() =>
+                setOpenIndex(openIndex === index ? null : index)
+              }
+              className="ml-10 bg-purple text-white rounded-2xl px-6 py-5 flex justify-between items-center cursor-pointer hover:scale-[1.01] transition"
+            >
+              <span>
+                {item.title} – {item.time}
+              </span>
+
+              <ChevronDown
+                className={`transition-transform ${
+                  openIndex === index ? "rotate-180" : ""
+                }`}
+              />
             </div>
-          ))}
-        </div>
+
+            {/* DROPDOWN */}
+            {openIndex === index && (
+              <div className="ml-10 bg-white text-black rounded-b-2xl px-6 py-4 text-left">
+                {item.description}
+              </div>
+            )}
+          </div>
+        ))}
       </div>
     </section>
   );
