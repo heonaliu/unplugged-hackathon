@@ -9,17 +9,15 @@ import { Footer } from "./sections/Footer";
 
 function App() {
   return (
-    
     <div className="relative min-h-screen bg-beige text-charcoal">
-
       <div className="font-gordita">
         <Navbar />
         <Hero />
         <About />
         <Schedule />
+        <Faq />
         <Sponsors />
         <Newsletters />
-        <Faq />
         <Footer />
       </div>
     </div>
