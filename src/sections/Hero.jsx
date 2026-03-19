@@ -3,7 +3,6 @@ import { Calendar, MapPin } from "lucide-react";
 export const Hero = () => {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-24">
-      
       <h1 className="text-6xl md:text-8xl font-extrabold">
         Unplugged
       </h1>
@@ -25,8 +24,8 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="flex gap-6 mt-10">
-        <button className="bg-orange text-white px-8 py-4 rounded-xl text-lg hover:bg-orange/80">
+      <div className="flex gap-6 mt-8">
+        <button className="bg-orange text-white px-12 py-2 rounded-xl text-lg hover:bg-orange/80">
           Register
         </button>
       </div>
