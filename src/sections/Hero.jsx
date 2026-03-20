@@ -22,7 +22,7 @@ export const Hero = () => {
         UNPLUGGED
       </h1>
 
-      <h2 className="font-rubikOne text-4xl md:text-5xl mt-4 font-bold">
+      <h2 className="font-rubikOne text-4xl md:text-6xl mt-4 font-bold">
         2026
       </h2>
 
@@ -40,7 +40,7 @@ export const Hero = () => {
       </div>
 
       <div className="flex gap-6 mt-8">
-        <button className="bg-orange text-white px-12 py-2 rounded-xl text-lg hover:bg-orange/80">
+        <button className="border-none inline-block mt-12 bg-orange text-white px-6 py-2 rounded-xl text-lg transition-transform duration-300 ease-in-out hover:bg-orange/95 no-underline">
           Register
         </button>
       </div>
