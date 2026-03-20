@@ -58,7 +58,7 @@ export const Navbar = () => {
           </li>
         </ul>
 
-        <button className="hidden md:block bg-charcoal text-white px-4 py-2 rounded hover:bg-charcoal/90 border-none">
+        <button className="hidden md:block bg-white text-orange px-4 py-2 rounded hover:bg-charcoal/90 border-none">
           Register Now
         </button>
         <button
