@@ -44,7 +44,7 @@ export const Newsletters = () => {
         </p>
       <form
         onSubmit={handleSubmit}
-        className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md"
+        className="max-w-md mx-auto bg-white/60 p-8 rounded-lg shadow-md"
       >
         <div className="mb-4 mr-6">
           <label
