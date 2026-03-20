@@ -18,7 +18,7 @@ export const Hero = () => {
       z-0
     "
       />
-      <h1 className="font-rubikOne text-purple text-6xl md:text-8xl z-10">
+      <h1 className="font-rubikOne text-teal text-6xl md:text-8xl z-10">
         UNPLUGGED
       </h1>
 
@@ -44,7 +44,7 @@ export const Hero = () => {
         target="_blank"
         rel="noopener noreferrer"
         href="https://forms.gle/GED5aVUj9QmLWBu2A"
-        className="inline-block mt-4 bg-purple text-white px-12 py-2 rounded-xl text-lg transition-transform duration-300 ease-in-out hover:bg-purple/95 no-underline"
+        className="inline-block mt-4 bg-teal text-white px-12 py-2 rounded-xl text-lg transition-transform duration-300 ease-in-out hover:bg-teal/95 no-underline"
       >
         Register
       </a>

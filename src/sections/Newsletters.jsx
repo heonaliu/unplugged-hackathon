@@ -101,7 +101,7 @@ export const Newsletters = () => {
         </div>
         <button
           type="submit"
-          className="border-none inline-block mt-12 bg-purple text-white px-6 py-2 rounded-xl text-lg transition-transform duration-300 ease-in-out hover:bg-purple/95 no-underline"
+          className="border-none inline-block mt-12 bg-teal text-white px-6 py-2 rounded-xl text-lg transition-transform duration-300 ease-in-out hover:bg-teal/95 no-underline"
         >
           Subscribe
         </button>

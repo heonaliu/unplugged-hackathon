@@ -48,7 +48,7 @@ export const Schedule = () => {
       <div className="max-w-4xl mx-auto relative">
 
         {/* LEFT TIMELINE LINE */}
-        <div className="absolute left-4 top-0 bottom-0 w-2 bg-purple rounded"></div>
+        <div className="absolute left-4 top-0 bottom-0 w-2 bg-teal rounded"></div>
 
         {scheduleItems.map((item, index) => (
           <div key={index} className="relative mb-6">

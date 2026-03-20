@@ -11,6 +11,7 @@ export default {
           sage: "#A3B18A",
           orange: "#F08A5D",
           purple: "#856de5",
+          teal: "#21a0a0",
           bluegray: "#8E9AAF",
           charcoal: "#2F2F2F",
       },
