@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { db } from "../firebase";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 export const Newsletters = () => {
   const [form, setForm] = useState({
@@ -13,14 +15,25 @@ export const Newsletters = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would typically send the form data to your backend or an email marketing service
-    console.log("Form submitted:", form);
-    // Reset the form after submission
+
+    try {
+      addDoc(collection(db, "newsletter"), {
+        first: form.firstName,
+        last: form.lastName,
+        email: form.email,
+        time: serverTimestamp(),
+      });
+      console.log("Form submitted:", form);
+
     setForm({
       firstName: "",
       lastName: "",
       email: "",
     });
+    } catch (error) {
+      console.error("Error adding document: ", error);
+    }
+    
   };
 
   return (
@@ -41,6 +54,7 @@ export const Newsletters = () => {
             value={form.firstName}
             onChange={handleOnChange}
             className="mt-1 block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange focus:border-orange"
+            required
           />
         </div>
 
@@ -55,6 +69,7 @@ export const Newsletters = () => {
             value={form.lastName}
             onChange={handleOnChange}
             className="mt-1 block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange focus:border-orange"
+            required
           />
         </div>
 
@@ -69,6 +84,7 @@ export const Newsletters = () => {
             value={form.email}
             onChange={handleOnChange}
             className="mt-1 block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange focus:border-orange"
+            required
           />
         </div>
         <button
