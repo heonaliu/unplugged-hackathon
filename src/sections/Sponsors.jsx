@@ -1,18 +1,11 @@
 import logoipsum from "../assets/logoipsum-385.png";
 export const Sponsors = () => {
   const sponsors = [
-    {
-      name: "Test Sponsor",
-      logo: logoipsum,
-    },
-    {
-      name: "Test Sponsor",
-      logo: logoipsum,
-    },
-    {
-      name: "Test Sponsor",
-      logo: logoipsum,
-    },
+    // {
+    //   name: "Test Sponsor",
+    //   logo: logoipsum,
+    // },
+
   ];
 
   return (
