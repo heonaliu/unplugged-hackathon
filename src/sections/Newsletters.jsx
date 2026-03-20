@@ -71,7 +71,6 @@ export const Newsletters = () => {
             className="mt-1 block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange focus:border-orange"
           />
         </div>
-
         <button
           type="submit"
           className="bg-purple hover:bg-purple-dark text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out"
