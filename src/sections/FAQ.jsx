@@ -29,7 +29,7 @@ export const Faq = () => {
   ];
 
   return (
-    <section id="faq" className="py-16 px-6 bg-beige text-center scroll-mt-10">
+    <section id="faq" className="py-16 px-6 text-center scroll-mt-10">
       <h1 className="text-orange font-rubikOne text-5xl font-bold mb-12">
         FAQ
       </h1>

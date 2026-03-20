@@ -41,7 +41,7 @@ export const Schedule = () => {
   ];
 
   return (
-    <section id="schedule" className="py-16 px-6 bg-beige text-center scroll-mt-10">
+    <section id="schedule" className="py-16 px-6 text-center scroll-mt-10">
       <h1 className="text-orange font-rubikOne text-5xl font-bold mb-12">Schedule</h1>
       <h2 className="text-charcoal text-2xl font-semibold mb-8"> Saturday May 23, 2026</h2>
 
@@ -53,7 +53,6 @@ export const Schedule = () => {
         {scheduleItems.map((item, index) => (
           <div key={index} className="relative mb-6">
 
-            <div className="absolute left-0 top-1/4 -translate-y-1/2 w-8 h-8 bg-beige"></div>
 
             {/* CARD */}
             <div
