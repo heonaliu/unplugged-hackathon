@@ -40,9 +40,14 @@ export const Hero = () => {
       </div>
 
       <div className="flex gap-6 mt-8">
-        <button className="border-none inline-block mt-12 bg-orange text-white px-6 py-2 rounded-xl text-lg transition-transform duration-300 ease-in-out hover:bg-orange/95 no-underline">
-          Register
-        </button>
+        <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://forms.gle/GED5aVUj9QmLWBu2A"
+        className="inline-block mt-4 bg-purple text-white px-12 py-2 rounded-xl text-lg transition-transform duration-300 ease-in-out hover:bg-purple/95 no-underline"
+      >
+        Register
+      </a>
       </div>
 
       <p className="flex flex-col mt-6 text-lg md:text-xl text-bluegray max-w-xl">

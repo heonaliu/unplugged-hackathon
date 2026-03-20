@@ -101,9 +101,16 @@ export const Navbar = () => {
           >
             Newsletters
           </a>
-          <button className="bg-white text-orange px-4 py-2 rounded hover:bg-gray-50 border-none w-full">
-            Register Now
-          </button>
+          <div className="flex gap-6 mt-8">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://forms.gle/GED5aVUj9QmLWBu2A"
+              className="inline-block bg-white text-orange px-4 py-2 rounded hover:bg-gray-50 border-none w-full no-underline text-center"
+            >
+              Register
+            </a>
+          </div>
         </div>
       )}
     </nav>
