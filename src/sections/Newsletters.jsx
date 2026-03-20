@@ -24,15 +24,14 @@ export const Newsletters = () => {
         time: serverTimestamp(),
       });
 
-    setForm({
-      firstName: "",
-      lastName: "",
-      email: "",
-    });
+      setForm({
+        firstName: "",
+        lastName: "",
+        email: "",
+      });
     } catch (error) {
       console.error("Error adding document: ", error);
     }
-    
   };
 
   return (
@@ -41,9 +40,15 @@ export const Newsletters = () => {
         Newsletters
       </h1>
 
-      <form onSubmit={handleSubmit} className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
+      <form
+        onSubmit={handleSubmit}
+        className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md"
+      >
         <div className="mb-4 mr-6">
-          <label htmlFor="firstName" className="block text-lg font-medium text-bluegray">
+          <label
+            htmlFor="firstName"
+            className="block text-lg font-medium text-bluegray"
+          >
             First Name
           </label>
           <input
@@ -58,7 +63,10 @@ export const Newsletters = () => {
         </div>
 
         <div className="mb-4 mr-6">
-          <label htmlFor="lastName" className="block text-lg font-medium text-bluegray">
+          <label
+            htmlFor="lastName"
+            className="block text-lg font-medium text-bluegray"
+          >
             Last Name
           </label>
           <input
@@ -73,7 +81,10 @@ export const Newsletters = () => {
         </div>
 
         <div className="mb-4 mr-6">
-          <label htmlFor="email" className="block text-lg font-medium text-bluegray">
+          <label
+            htmlFor="email"
+            className="block text-lg font-medium text-bluegray"
+          >
             Email
           </label>
           <input
