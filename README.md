@@ -9,6 +9,7 @@
 - Used a Javascript React Vite framework to build this web application
 - In order to implement the Newsletter feature, I integrated Firebase and Firestore to store the submitted emails and names.
 - I broke the different parts of the website into separate components so that it's easier to work with.
+- Constellation background code and implementation was made from shadcn.io [here](https://www.shadcn.io/background/constellation)
 
 ## What I struggled with and what I learned
 - One thing I struggled with is Tailwindcss. I'm used to creating css files and importing them into the React Components. However, I decided to try something different. After quite a bit of time researching Tailwindcss I slowly got a hang of it and how to use it (for example, mb means margin-bottom or py means padding-y). Building on this, I was able to experiment by tweaking the styling if it didn't look quite right (like add more padding between text/buttons).
