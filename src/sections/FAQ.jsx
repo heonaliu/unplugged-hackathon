@@ -36,12 +36,12 @@ export const Faq = () => {
       {faqItems.map((item, index) => (
         <div
           key={index}
-          className="ml-10 mb-4 bg-white text-white rounded-2xl px-6 py-5 flex justify-between items-center cursor-pointer transition"
+          className="ml-10 mb-4 bg-white text-white rounded-2xl px-6 py-5 flex justify-between cursor-pointer transition"
         >
           <h2 className="text-charcoal text-2xl font-semibold mb-4">
             {item.question}
           </h2>
-          <p className=" items-center ml-2 text-lg text-bluegray">
+          <p className="ml-2 text-lg text-bluegray">
             {item.answer}
           </p>
         </div>
