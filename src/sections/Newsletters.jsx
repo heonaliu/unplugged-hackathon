@@ -99,7 +99,7 @@ export const Newsletters = () => {
         </div>
         <button
           type="submit"
-          className="bg-purple hover:bg-purple-dark text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out"
+          className="inline-block mt-12 bg-purple text-white px-6 py-2 rounded-xl text-lg transition-transform duration-300 ease-in-out hover:bg-purple/95 no-underline"
         >
           Subscribe
         </button>
