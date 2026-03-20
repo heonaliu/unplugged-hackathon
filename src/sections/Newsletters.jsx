@@ -1,7 +1,84 @@
+import { useState } from "react";
+
 export const Newsletters = () => {
+  const [form, setForm] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+  });
+
+  const handleOnChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Here you would typically send the form data to your backend or an email marketing service
+    console.log("Form submitted:", form);
+    // Reset the form after submission
+    setForm({
+      firstName: "",
+      lastName: "",
+      email: "",
+    });
+  };
+
   return (
-    <section>
-      <h1>Newsletters</h1>
+    <section className="py-16 px-6 bg-beige text-center">
+      <h1 className="text-orange font-rubikOne text-5xl font-bold mb-12">
+        Newsletters
+      </h1>
+
+      <form onSubmit={handleSubmit} className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
+        <div className="mb-4 mr-6">
+          <label htmlFor="firstName" className="block text-lg font-medium text-bluegray">
+            First Name
+          </label>
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            value={form.firstName}
+            onChange={handleOnChange}
+            className="mt-1 block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange focus:border-orange"
+          />
+        </div>
+
+        <div className="mb-4 mr-6">
+          <label htmlFor="lastName" className="block text-lg font-medium text-bluegray">
+            Last Name
+          </label>
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            value={form.lastName}
+            onChange={handleOnChange}
+            className="mt-1 block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange focus:border-orange"
+          />
+        </div>
+
+        <div className="mb-4 mr-6">
+          <label htmlFor="email" className="block text-lg font-medium text-bluegray">
+            Email
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={form.email}
+            onChange={handleOnChange}
+            className="mt-1 block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange focus:border-orange"
+          />
+        </div>
+
+        <button
+          type="submit"
+          className="bg-purple hover:bg-purple-dark text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out"
+        >
+          Subscribe
+        </button>
+      </form>
     </section>
   );
 };
