@@ -3,7 +3,7 @@ import plugVector from "../assets/plug-vector.png";
 
 export const Hero = () => {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20">
+    <section id="home" className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20">
       <img
         src={plugVector}
         alt="Plug Vector"

@@ -42,18 +42,18 @@ export const Navbar = () => {
           </li>
           <li>
             <a
-              href="#newsletters"
-              className="text-white hover:text-charcoal no-underline"
-            >
-              Newsletters
-            </a>
-          </li>
-          <li>
-            <a
               href="#sponsors"
               className="text-white hover:text-charcoal no-underline"
             >
               Sponsors
+            </a>
+          </li>
+          <li>
+            <a
+              href="#newsletters"
+              className="text-white hover:text-charcoal no-underline"
+            >
+              Newsletters
             </a>
           </li>
         </ul>
@@ -91,15 +91,15 @@ export const Navbar = () => {
           </a>
           <a
             className="text-white hover:text-charcoal no-underline"
-            href="#newsletters"
-          >
-            Newsletters
-          </a>
-          <a
-            className="text-white hover:text-charcoal no-underline"
             href="#sponsors"
           >
             Sponsors
+          </a>
+          <a
+            className="text-white hover:text-charcoal no-underline"
+            href="#newsletters"
+          >
+            Newsletters
           </a>
           <button className="bg-white text-orange px-4 py-2 rounded hover:bg-gray-50 border-none w-full">
             Register Now

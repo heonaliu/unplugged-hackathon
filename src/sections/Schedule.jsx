@@ -41,7 +41,7 @@ export const Schedule = () => {
   ];
 
   return (
-    <section className="py-16 px-6 bg-beige text-center">
+    <section id="schedule" className="py-16 px-6 bg-beige text-center scroll-mt-10">
       <h1 className="text-orange font-rubikOne text-5xl font-bold mb-12">Schedule</h1>
       <h2 className="text-charcoal text-2xl font-semibold mb-8"> Saturday May 23, 2026</h2>
 
