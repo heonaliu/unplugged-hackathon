@@ -1,5 +1,6 @@
 # Unplugged Hackathon Website
 - This is a website for a local hackathon hosted in my local community for highschoolers in Newton North High School and Newton South High School. It's meant to be a collaborative opportunity for high schoolers to get involved in STEM and put to use what they learned in their CS classes. It's near the end of the year after AP exams where hopefully students can relax, hence the name Unplugged.
+- Deployed Site: [Unplugged Hackathon](https://nnhs-unplugged-28c10.web.app/)
 
 ## Why I Made This Project
 - I made this project because our club's hackathon needed an informational webpage as a form of advertisement. Besides this, I also thought it would be beneficial to build on my knowledge working with React, styling with Tailwindcss and Firebase. If my website gets used, I hope this can be a good template to reference back to for future events that is created.
