@@ -23,7 +23,6 @@ export const Newsletters = () => {
         email: form.email,
         time: serverTimestamp(),
       });
-      console.log("Form submitted:", form);
 
     setForm({
       firstName: "",
