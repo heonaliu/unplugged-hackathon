@@ -39,7 +39,9 @@ export const Newsletters = () => {
       <h1 className="text-orange font-rubikOne text-5xl font-bold mb-12">
         Newsletters
       </h1>
-
+        <p className="text-lg text-bluegray mb-8">
+          Stay in the loop about Unplugged. Subscribe for updates, opportunities, and upcoming events!
+        </p>
       <form
         onSubmit={handleSubmit}
         className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md"
