@@ -16,6 +16,7 @@ export const Hero = () => {
       opacity-40 
       pointer-events-none 
       z-0
+      md:opacity-10
     "
       />
       <h1 className="font-rubikOne text-teal text-6xl md:text-8xl z-10">
